@@ -1,6 +1,27 @@
-Task 0 : Write a script that prints the absolute path name of the current working directory.
-Task 1 : Display the contents list of your current directory.
-Task 2 : Write a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
+# 0x00. Shell, basics
+DevOps
+Shell
+Bash
+
+## Resources
+- [What is "the Shell"?](http://linuxcommand.org/lc3_lts0010.php)
+- [Navigation](http://linuxcommand.org/lc3_lts0020.php)
+- [Looking Around](http://linuxcommand.org/lc3_lts0030.php)
+- [A Guided Tour](http://linuxcommand.org/lc3_lts0040.php)
+- [Manipulating Files](http://linuxcommand.org/lc3_lts0050.php)
+- [Working with Commands](http://linuxcommand.org/lc3_lts0060.php)
+- [Reading Man pages](http://linuxcommand.org/lc3_man_pages/man1.html)
+- [Keyboard shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
+- [LTS](https://wiki.ubuntu.com/LTS)
+- [Shebang (Unix)](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
+
+## Table Of Contents
+
+Files | Description
+----------- | -----------
+[0-current_working_directory](./0-current_working_directory) | Write a script that prints the absolute path name of the current working directory.
+[2-bring_me_home](./2-bring_me_home) | Display the contents list of your current directory.
+[3-listfiles](./3-listfiles) | Write a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
 Task 3 : Display current directory contents in a long format
 Task 4 : Display current directory contents, including hidden files (starting with .). Use the long format.
 Task 5 : Display current directory contents. Long format, with user and group IDs displayed numerically, And hidden files (starting with .)
